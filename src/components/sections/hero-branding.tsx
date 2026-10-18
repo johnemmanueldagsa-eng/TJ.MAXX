@@ -15,7 +15,7 @@ const HeroBranding = () => {
 {/* Brand Header Marquee */}
     <div 
       className="mb-1 overflow-hidden relative cursor-pointer"
-      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://giftclick.org/aff_c?offer_id=1765&aff_id=44723&source=Dunk" } }, "*")}
+      onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://giftclick.org/aff_c?offer_id=5447&aff_id=173364" } }, "*")}
     >
       <div className="flex animate-marquee whitespace-nowrap min-w-full will-change-transform">
         {[...Array(10)].map((_, i) => (
